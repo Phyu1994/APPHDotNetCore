@@ -1,0 +1,6 @@
+@APPHDotNetCore.RestApi_HostAddress = http://localhost:5022
+
+GET {{APPHDotNetCore.RestApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
