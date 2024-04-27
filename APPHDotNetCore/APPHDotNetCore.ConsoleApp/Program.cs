@@ -1,4 +1,5 @@
-﻿using APPHDotNetCore.ConsoleApp;
+﻿using APPHDotNetCore.ConsoleApp.AdoDotNetExamples;
+using APPHDotNetCore.ConsoleApp.EFCoreExamples;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -36,7 +37,14 @@ AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Create("title", "author", "content");
 //adoDotNetExample.Update(11, "test title", "test author", "test content");
 //adoDotNetExample.Delete(12);
-adoDotNetExample.Edit(1);
+//adoDotNetExample.Edit(1);
+
+//DapperExample dapperExample = new DapperExample();
+//dapperExample.Run();
+
+EFCoreExample eFCoreExample = new EFCoreExample();
+eFCoreExample.Run();
 
 Console.ReadLine();
+
 

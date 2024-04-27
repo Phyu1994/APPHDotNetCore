@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("APPHDotNetCore.ConsoleApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aa2b049f379b2f4541d1dc8a2af44f1d3b7b9522")]
 [assembly: System.Reflection.AssemblyProductAttribute("APPHDotNetCore.ConsoleApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("APPHDotNetCore.ConsoleApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

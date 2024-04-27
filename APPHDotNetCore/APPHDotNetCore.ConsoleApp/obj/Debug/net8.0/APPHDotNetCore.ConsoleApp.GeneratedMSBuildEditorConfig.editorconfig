@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = APPHDotNetCore.ConsoleApp
-build_property.ProjectDir = D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\New folder\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.ConsoleApp\
+build_property.ProjectDir = D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.ConsoleApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
