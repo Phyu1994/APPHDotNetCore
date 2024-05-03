@@ -1,0 +1,13 @@
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\bin\Debug\net8.0\APPHDotNetCore.Shared.deps.json
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\bin\Debug\net8.0\APPHDotNetCore.Shared.dll
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\bin\Debug\net8.0\APPHDotNetCore.Shared.pdb
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\APPHDotNetCore.Shared.csproj.AssemblyReference.cache
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\APPHDotNetCore.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\APPHDotNetCore.Shared.AssemblyInfoInputs.cache
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\APPHDotNetCore.Shared.AssemblyInfo.cs
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\APPHDotNetCore.Shared.csproj.CoreCompileInputs.cache
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\APPHDotNetCore.Shared.sourcelink.json
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\APPHDotNetCore.Shared.dll
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\refint\APPHDotNetCore.Shared.dll
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\APPHDotNetCore.Shared.pdb
+D:\MY FILE\PROJECTS\DotNetTraining_PROJECTS\DotNetCore\APPHDotNetCore\APPHDotNetCore\APPHDotNetCore.Shared\obj\Debug\net8.0\ref\APPHDotNetCore.Shared.dll
