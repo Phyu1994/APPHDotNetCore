@@ -47,7 +47,7 @@ namespace APPHDotNetCore.Shared
 
             return lst;
         }
-        public T QueryFirstOrDefault<T>(string query, params AdoDotNetParameter[]? parameters)
+        public T? QueryFirstOrDefault<T>(string query,params AdoDotNetParameter[]? parameters)
         {
             SqlConnection connection = new SqlConnection(_connectionString);
             connection.Open();
@@ -72,8 +72,11 @@ namespace APPHDotNetCore.Shared
             connection.Close();
 
             string json = JsonConvert.SerializeObject(dt); // C# to json
-            List<T> lst = JsonConvert.DeserializeObject<List<T>>(json)!;
-
+            List<T> lst = JsonConvert.DeserializeObject<List<T>>(json)!;  //json to C#
+            if( lst.Count == 0 )
+            {
+                return default;
+            }
             return lst[0];
         }
         public int Execute(string query, params AdoDotNetParameter[]? parameters)

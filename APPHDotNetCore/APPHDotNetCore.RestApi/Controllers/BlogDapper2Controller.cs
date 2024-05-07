@@ -29,17 +29,14 @@ namespace APPHDotNetCore.RestApi.Controllers
         [HttpGet("{id}")]
         public IActionResult GetBlog(int id)
         {
-            //string query = "Select * from tbl_Blog where BlogId = @BlogId";
-            //using IDbConnection db = new SqlConnection(ConnectionStrings.SqlConnectionStringbuilder.ConnectionString);
-            //var item = db.Query<BlogModel>(query,new BlogModel { BlogId = id }).FirstOrDefault();
-
-            var item = FindById(id);
-            if(item is null)
+            string query = "Select * from tbl_Blog where BlogId = @BlogId";
+            
+            var item = _dapperService.QueryFirstOrDefault<BlogModel>(query,new BlogModel { BlogId = id });
+            if (item is null)
             {
                 return NotFound("No data found.");
             }
             return Ok(item);
-
         }
 
         [HttpPost]
@@ -142,7 +139,7 @@ namespace APPHDotNetCore.RestApi.Controllers
             string query = @"DELETE [dbo].[Tbl_Blog] WHERE BlogId = @BlogId";
 
             using IDbConnection db = new SqlConnection(ConnectionStrings.SqlConnectionStringbuilder.ConnectionString);
-            int result = db.Execute(query, new BlogModel { BlogId = id});
+            int result = _dapperService.Execute(query, new BlogModel { BlogId = id});
 
             string message = result > 0 ? "Deleting Successful." : "Deleting Failed.";
             return Ok(message);
