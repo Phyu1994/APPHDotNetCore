@@ -1,0 +1,6 @@
+@APPHDotNetCore.PizzaApi_HostAddress = http://localhost:5189
+
+GET {{APPHDotNetCore.PizzaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
