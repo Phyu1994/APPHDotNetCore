@@ -1,6 +1,6 @@
 ﻿namespace APPHDotNetCore.WinFormApp
 {
-    partial class Form1
+    partial class FrmBlog
     {
         /// <summary>
         ///  Required designer variable.
@@ -36,6 +36,7 @@
             txtContent = new TextBox();
             btnCancel = new Button();
             btnSave = new Button();
+            btnUpdate = new Button();
             SuspendLayout();
             // 
             // lblTitle
@@ -113,11 +114,25 @@
             btnSave.UseVisualStyleBackColor = false;
             btnSave.Click += btnSave_Click;
             // 
-            // Form1
+            // btnUpdate
+            // 
+            btnUpdate.BackColor = Color.FromArgb(128, 128, 255);
+            btnUpdate.FlatStyle = FlatStyle.Flat;
+            btnUpdate.ForeColor = Color.White;
+            btnUpdate.Location = new Point(257, 333);
+            btnUpdate.Name = "btnUpdate";
+            btnUpdate.Size = new Size(112, 34);
+            btnUpdate.TabIndex = 8;
+            btnUpdate.Text = "&Update";
+            btnUpdate.UseVisualStyleBackColor = false;
+            btnUpdate.Click += btnUpdate_Click;
+            // 
+            // FrmBlog
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnUpdate);
             Controls.Add(btnSave);
             Controls.Add(btnCancel);
             Controls.Add(txtContent);
@@ -126,7 +141,7 @@
             Controls.Add(lblContent);
             Controls.Add(lblAuthor);
             Controls.Add(lblTitle);
-            Name = "Form1";
+            Name = "FrmBlog";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Blog";
             ResumeLayout(false);
@@ -143,5 +158,6 @@
         private TextBox txtContent;
         private Button btnCancel;
         private Button btnSave;
+        private Button btnUpdate;
     }
 }
