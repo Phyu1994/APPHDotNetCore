@@ -10,15 +10,22 @@ using System.Reflection.Metadata;
 
 namespace APPHDotNetCore.ConsoleApp.AdoDotNetExamples
 {
-    internal class AdoDotNetExample
+    public class AdoDotNetExample
     {
-        private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        //private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder = new SqlConnectionStringBuilder()
+        //{
+        //    DataSource = "RV-IT-LP-087",    // server name
+        //    InitialCatalog = "DotNetTrainingBatch4",    // db name
+        //    UserID = "sa",
+        //    Password = "sasa@123"
+        //};
+
+        private readonly SqlConnectionStringBuilder _sqlConnectionStringBuilder;
+
+        public AdoDotNetExample(SqlConnectionStringBuilder sqlConnectionStringBuilder)
         {
-            DataSource = "RV-IT-LP-087",    // server name
-            InitialCatalog = "DotNetTrainingBatch4",    // db name
-            UserID = "sa",
-            Password = "sasa@123"
-        };
+            _sqlConnectionStringBuilder = sqlConnectionStringBuilder;
+        }
 
         public void Read()
         {

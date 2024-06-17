@@ -8,12 +8,16 @@ using System.Threading.Tasks;
 
 namespace APPHDotNetCore.RestApi.Db
 {
-    internal class AppDbContext : DbContext
+    public class AppDbContext : DbContext
     {
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public AppDbContext(DbContextOptions options) : base(options)
         {
-            optionsBuilder.UseSqlServer(ConnectionStrings.SqlConnectionStringbuilder.ConnectionString);
         }
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer(ConnectionStrings.SqlConnectionStringbuilder.ConnectionString);
+        //}
         public DbSet<BlogModel> Blogs { get; set; }
     }
 }
