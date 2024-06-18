@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\APPHDotNetCore.MinimalApi.props" />
+</Project>
